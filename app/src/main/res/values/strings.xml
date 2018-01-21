@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">HelloAndroid</string>
+    <string name="companyname">Udacity</string>
+    <string name="companyinfo">Private Educational Organization</string>
+    <string name="companyinfo2">Go from a programming novice to an Android Developer in weeks. Call Udacity today!</string>
+    <string name="companyinfo3">Take the next step in your career.</string>
+
+    <string name="phonenum">650-555-5555</string>
+    <string name="address1">2465 Latham St</string>
+    <string name="address2">2465 Latham St, Mountain View, CA 94043</string>
+    <string name="address3">Mountain View, CA 94043</string>
+
+    <string name="websiteinfo">www.udacity.com</string>
+    <string name="call_txt">CALL</string>
+    <string name="save_txt">SAVE</string>
+    <string name="web_txt">WEBSITE</string>
+    <string name="scholarships_txt">SCHOLARSHIPS</string>
+    <string name="educational_txt">EDUCATIONAL</string>
+    <string name="rating_txt">TOP PICK</string>
+
+    <string name="linkToCall"><a href="tel:1-650-555-5555" style="text-decoration: none;">CALL</a></string>
+    <string name="linkToCall2"><a href="http://www.yahoo.com" style="text-decoration: none;">CALL</a></string>
+
+</resources>

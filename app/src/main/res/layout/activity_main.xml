@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    tools:context="com.example.android.helloandroid.MainActivity">
+
+   <ImageView
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="4"
+    android:src="@drawable/scholar"
+    android:scaleType="centerCrop"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#15c9d2"
+        android:text="@string/companyname"
+        style="@style/TitleText"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/infotext"
+        android:text="@string/companyinfo"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@android:color/white"
+        android:gravity="center">
+
+        <TextView
+            style="@style/rowtext"
+            android:text="@string/rating_txt"
+            android:drawableTop="@drawable/ic_stars_black_24dp"/>
+
+
+        <TextView
+            android:id="@+id/messageWithLinkTextView"
+            style="@style/rowtext"
+            android:autoLink="all"
+            android:drawableTop="@drawable/ic_school_black_24dp"
+            android:text="@string/educational_txt"
+            tools:linksClickable="true" />
+
+        <TextView
+            style="@style/rowtext"
+            android:text="@string/scholarships_txt"
+            android:drawableTop="@drawable/ic_attach_money_black_24dp"/>
+    </LinearLayout>
+
+
+    <TextView
+        style="@style/smalltext"
+        android:autoLink="all"
+        android:text="@string/address2"
+        android:drawableLeft="@drawable/ic_smallmarker"/>
+
+
+    <TextView
+        style="@style/smalltext"
+        android:autoLink="all"
+        android:text="@string/phonenum"
+        android:drawableLeft="@drawable/ic_smallphone"/>
+
+    <TextView
+        style="@style/smalltext"
+
+        android:autoLink="all"
+        android:drawableLeft="@drawable/ic_smallglobe"
+        android:text="@string/websiteinfo"/>
+
+    <TextView
+        style="@style/smalltext2"
+        android:layout_height="wrap_content"
+        android:text="@string/companyinfo2"/>
+
+
+</LinearLayout>
