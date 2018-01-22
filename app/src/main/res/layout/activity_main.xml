@@ -47,8 +47,7 @@
             style="@style/rowtext"
             android:autoLink="all"
             android:drawableTop="@drawable/ic_school_black_24dp"
-            android:text="@string/educational_txt"
-            tools:linksClickable="true" />
+            android:text="@string/educational_txt" />
 
         <TextView
             style="@style/rowtext"
@@ -59,21 +58,21 @@
 
     <TextView
         style="@style/smalltext"
-        android:autoLink="all"
+        android:autoLink="map"
         android:text="@string/address2"
         android:drawableLeft="@drawable/ic_smallmarker"/>
 
 
     <TextView
         style="@style/smalltext"
-        android:autoLink="all"
+        android:autoLink="phone"
         android:text="@string/phonenum"
         android:drawableLeft="@drawable/ic_smallphone"/>
 
     <TextView
         style="@style/smalltext"
 
-        android:autoLink="all"
+        android:autoLink="web"
         android:drawableLeft="@drawable/ic_smallglobe"
         android:text="@string/websiteinfo"/>
 
