@@ -43,9 +43,7 @@
 
 
         <TextView
-            android:id="@+id/messageWithLinkTextView"
             style="@style/rowtext"
-            android:autoLink="all"
             android:drawableTop="@drawable/ic_school_black_24dp"
             android:text="@string/educational_txt" />
 
